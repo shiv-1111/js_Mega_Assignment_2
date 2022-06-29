@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #dice_btn {
+            cursor: pointer;
+            font-size: 12rem;
+            display: inline-block;
+            transition:all 120ms linear;
+        }
+        
+        #dice_btn:hover {
+            transform: rotateY(180deg);
+        }
+
+        
+    </style>
+<script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1>Click on the dice to stop</h1>
+    <div id="dice_btn" onclick="startstop()">
+    </div>
+</body>
+
+</html>
